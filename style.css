@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/photo1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 8%;
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 2vh;
+  width: 150px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+.col {
+  flex-basis: 50%;
+}
